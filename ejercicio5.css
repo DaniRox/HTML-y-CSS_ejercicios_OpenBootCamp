@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c5d9e2;
+}
+
+.h1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 1px 6px 30px 6px;
+}
+
+h1 {
+    color: #817f75;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-size: 3em;
+    text-shadow: 3px 3px 18px #817f75;
+}
+
+.galeria {
+    display: flex;
+    background-color: #b3b5bb;
+    margin: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    border-radius: 1px 6px 30px 6px;
+}
+
+.animal {
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#animal {
+    width: 300px;
+    height: 200px;
+    padding-top: px;
+    margin: 0;
+    box-shadow: 7px 7px 8px #817f75;
+}
+
+.text-img {
+    color: #cdfff9;
+    font-weight: bold;
+    font-size: 1.4em;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    text-shadow: 2px 2px 2px #817f75;
+}
