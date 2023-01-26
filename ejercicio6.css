@@ -1,0 +1,34 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(138, 148, 156);
+}
+
+.div-boton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#boton {
+    background-color: rgb(156, 231, 36);
+    width: 250px;
+    height: 50px;
+}
+
+#boton::before {
+    color: black;
+    font-size: 25px;
+    content: "Pasa por encima";
+}
+
+#boton:hover {
+    background-color: green;
+}
+
+#boton:hover::before {
+    content: "¡Hecho!";
+    color: white;
+}
