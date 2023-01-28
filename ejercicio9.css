@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 248, 234);
+}
+
+.btn-modern {
+    width: 160px;
+    height: 90px;
+    color: lightgrey;
+    font-weight: 500;
+    font-size: 25px;
+    text-shadow: 0px 0px 1px rgb(37, 33, 33), 1px 1px 2px rgb(82, 79, 79);
+    background-color: rgb(250, 10, 158);
+    border: none;
+    border-radius: 5px;
+    border-top: 3px solid rgb(248, 139, 206);
+    border-left: 3px solid rgb(248, 139, 206);
+    border-bottom: 3px solid rgb(168, 14, 109);
+    border-right: 3px solid rgb(168, 14, 109);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 1px black;
+    background-color: rgb(247, 49, 171);
+    color: rgb(240, 235, 235);
+}
