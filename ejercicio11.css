@@ -1,0 +1,20 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 10px;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    border: 1px solid;
+    margin: 10px;
+    height: 50px;
+    background-color: rgba(148, 189, 110, 0.651);
+}
